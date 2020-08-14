@@ -1,0 +1,7 @@
+
+FROM bmc_compose_fpm
+FROM nginx:alpine
+
+WORKDIR /var/www
+COPY --from=0 /var/www/httpdocs /var/www/httpdocs
+

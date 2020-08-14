@@ -1,0 +1,19 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: db
+    database_port: null
+    database_name: bmc
+    database_user: root
+    database_password: root
+    mailer_transport: smtp
+    mailer_encryption: tls
+    mailer_port: 587
+    mailer_auth_mode: login
+    mailer_host: mailout.pvth.de
+    mailer_user: info@smartbusinessmodeler.com
+    mailer_password: Printf(bmc)
+    secret: ThisTokenIsNotSoSecretChangeIt
+    locale: en
+    linkedin_client_id: 86xcjkeu3mhx76
+    linkedin_client_secret: lBCWzGYFdeo9pFJR
+    ai_api_url: "https://aws.smartbusinessmodeler.com"
